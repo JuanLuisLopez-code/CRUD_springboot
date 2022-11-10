@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.models.Mesas;
 import com.example.demo.respotory.MesasRespository;
 
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "http://localhost:5001")
 @RestController
 @RequestMapping("/api")
 public class MesaController {
